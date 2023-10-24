@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+}
+/* nav start  */
+nav{
+    display: flex;
+    background-color: #1a1244;
+    justify-content: space-between;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+}
+nav div{
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+}
+nav div span{
+    font-size: 30px;
+    transition: 0.5s;
+}
+nav div span:hover{
+    font-size: 35px;
+    background-color: #f9d406af;
+    padding: 10px;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    padding-right: 20px;    
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 15px
+}
+nav ul li a:hover{
+    background-color: #080229;
+    border-radius: 10px;
+    font-size: 20px
+}
+/* nav end  */
+#fourth-section{
+    background-color: #efecec;
+}
+.collection-area-parent{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.collection-title{
+    color: #1A1244;
+    text-align: center;
+    font-size: 27px;
+    padding: 50px 0px;
+}
+.collection-area-container{
+    display: flex;
+    justify-content: space-between;
+}
+.single-card{
+    width: 320px;
+    padding: 15px;
+    text-align: justify;
+    box-shadow: 5px 5px 10px gray;
+}
+.single-card > h3{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.single-card-image{
+    width: 320px;
+}
+.single-card > .blog-date{
+    color: red;
+    padding: 20px 0;
+}
+
+.single-card-image > img{
+    max-width: 100%;
+}
+
+
+.special-offer-area > .special-offer-span1{
+    font-size: 20px;
+}
+.special-offer-area > .special-offer-span2{
+    color: gray;
+}
+.single-card > button{
+    font-size: 13px;
+    color: black;
+    background-color: #EFECEC;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.single-card > button:hover{
+    font-size: 16px;
+    color: white;
+    background-color: #959494;
+    border-radius: 8px;
+}
+.single-card > a{
+    text-decoration: none;
+    margin: 15px 0;
+    display: inline-block;
+}

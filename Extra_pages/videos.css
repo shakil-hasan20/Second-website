@@ -2,7 +2,8 @@
     margin: 0px;
 }
 
-/* header code start  */
+
+/* nav start  */
 nav{
     display: flex;
     background-color: #1a1244;
@@ -49,44 +50,9 @@ nav ul li a:hover{
     font-size: 20px
 }
 
-/* hero area  */
 
-.hero-area{
-    background-image: url('image/bg\ banner.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 150px 0;
-}
-.search-box-parent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.search-box-parent i{
-    background-color: white;
-    font-size: 20px;
-    width: 40px;
-    height: 30px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -10px;
-}
-.search-box-parent input{
-    width: 500px;
-    height: 30px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 18px;
-}
+/* nav end  */
 
-
-/* main section start  */
 
 main{
     background-color: #2d236a;
@@ -203,68 +169,4 @@ section{
 #previous-next-parent div a:first-child{
     background-color: #04aa6d;
     color: white;
-}
-
-
-
-/* footer code start here  */
-
-footer{
-    background-color: #5f1e69;
-    color: white;
-}
-#footer-parent{
-    width: 900px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
-    grid-gap: 50px;
-}
-.footer-firstitem h3{
-    font-size: 25px;
-    padding: 30px 0;
-    margin-top: 30px;
-}
-.footer-firstitem:first-child p{
-    margin-bottom: 50px;
-}
-
-
-.footer-seconditem h3{
-    font-size: 25px;
-    padding: 30px 0;
-    margin-top: 30px;
-}
-.footer-seconditem a{
-    text-decoration: none;
-    color: white;
-}
-.footer-seconditem p{
-    margin-bottom: 10px;
-}
-
-
-.footer-thirditem div{
-    padding: 30px 0;
-    margin-top: 30px;
-}
-.footer-thirditem div a{
-    color: white;
-    margin-right: 10px;
-    background-color: #1a1244;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    transition: 0.5s;
-}
-.footer-thirditem div a:hover{
-    font-size: 23px;
-}
-
-.footer-thirditem p{
-    margin-bottom: 10px;
-}
-.footer-thirditem p:nth-child(3){
-    margin-bottom: 70px;
 }

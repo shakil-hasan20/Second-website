@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+
+/* nav code start  */
+nav{
+    display: flex;
+    background-color: #1a1244;
+    justify-content: space-between;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+}
+nav div{
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+}
+nav div span{
+    font-size: 30px;
+    transition: 0.5s;
+}
+nav div span:hover{
+    font-size: 35px;
+    background-color: #f9d406af;
+    padding: 10px;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    padding-right: 20px;    
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 15px
+}
+nav ul li a:hover{
+    background-color: #080229;
+    border-radius: 10px;
+    font-size: 20px
+}
+
+
+
+/* main start  */
+
+section h2{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 40px;
+}
+#parent-div{
+    width: 900px;
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+.first-div{
+    background-color: #2D236A;
+    padding: 15px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 5px;
+}
+.first-div h2{
+    margin-bottom: 20px;
+    color: white;
+}
+.first-div p{
+    color: #d4d3d3;
+}
+
+#second-div{
+    margin-left: -10px;
+}
+.second-single-div{
+    padding: 20px ;
+    background-color: lightpink;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 17px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.second-single-div h3{
+    padding-bottom: 10px;
+}
+.second-single-div:hover{
+    font-size: 20px;
+    background-color: #2D236A;
+    color: white;
+}

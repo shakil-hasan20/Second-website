@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+}
+
+/* nav start  */
+nav{
+    display: flex;
+    background-color: #1a1244;
+    justify-content: space-between;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+}
+nav div{
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+}
+nav div span{
+    font-size: 30px;
+    transition: 0.5s;
+}
+nav div span:hover{
+    font-size: 35px;
+    background-color: #f9d406af;
+    padding: 10px;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    padding-right: 20px;    
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 15px
+}
+nav ul li a:hover{
+    background-color: #080229;
+    border-radius: 10px;
+    font-size: 20px
+}
+/* nav end  */
+
+
+
+form{
+    width: 800px;
+    background-color: lightpink;
+    margin: 80px auto;
+    padding: 40px 0;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form div input{
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+form textarea{
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    height: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+form #submit-button{
+    display: block;
+    margin: 20px auto;
+    font-size: 15px;
+    padding: 10px 20px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, blue, blueviolet, aqua);
+    transition: 0.5s;
+}
+form #submit-button:hover{
+    background: linear-gradient(to right, #0000ff1a, #892be231, #00ffff15);
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+}
